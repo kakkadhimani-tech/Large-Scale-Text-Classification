@@ -60,7 +60,7 @@ def train_deep_learning_model():
         if (epoch+1) % 5 == 0:
             print(f"Epoch [{epoch+1}/{epochs}] - Loss: {loss.item():.4f} - LR: {scheduler.get_last_lr()[0]}")
 
-    # ================= EVALUATION BLOCK ================= #
+    
     model.eval()
     with torch.no_grad():
         test_outputs = model(X_test_tensor)
