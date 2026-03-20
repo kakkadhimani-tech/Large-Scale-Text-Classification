@@ -24,6 +24,10 @@ The project folder is structured to meet submission guidelines:
 * `model_weights.pth` : Saved state dictionary of the fully trained model achieving 90.47% accuracy.
 * `report.pdf` : Detailed project documentation, methodology, and evaluation metrics.
 
+
+# ###  Download Trained Model Weights
+The model weights file is too large for GitHub (82MB). You can download it from the link below:
+https://drive.google.com/file/d/1t9V6F3j2-BAkICitBv3qBm7I5Cef4VSZ/view?usp=sharing
 ## Setup and Execution Instructions
 
 ### 1. Prerequisites
